@@ -10,9 +10,9 @@ void setup()
 void loop()
 {
  digitalWrite(ledPin, HIGH);
- delay(delayPeriod);
+ delay(delayPeriod * 3);
  digitalWrite(ledPin, LOW);
- delay(delayPeriod);
+ delay(delayPeriod + 3);
 
  digitalWrite(ledPin, HIGH);
  delay(delayPeriod);
