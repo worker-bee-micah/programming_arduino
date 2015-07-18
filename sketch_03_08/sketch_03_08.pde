@@ -9,7 +9,8 @@ void setup()
 
 void loop()
 {
-  for (int i = 0; i < 20; i ++) //looks like a function, but semicolons seperate
+  for (int i = 0; i < 20; i ++)    //looks like a function, but semicolons seperate
+                                  //C shortcut for "add one"
   {
    digitalWrite(ledPin, HIGH);
    delay(delayPeriod);
