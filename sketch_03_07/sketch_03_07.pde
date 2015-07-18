@@ -15,9 +15,9 @@ void loop()
  delay(delayPeriod + 3);
 
  digitalWrite(ledPin, HIGH);
- delay(delayPeriod);
+ delay(delayPeriod * 5);
  digitalWrite(ledPin, LOW);
- delay(delayPeriod);
+ delay(delayPeriod + 5);
 
  digitalWrite(ledPin, HIGH);
  delay(delayPeriod);
