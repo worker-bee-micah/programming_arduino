@@ -15,7 +15,8 @@ void loop()
  digitalWrite(ledPin, LOW);
  delay(delayPeriod);
  count ++;
- if (count == 20)
+ if (count == 20)     //commands  evaluate conditions, not arguments
+                      //syntax if [space] (a condition or two...) 
  {
    count = 0;
    delay(3000);
