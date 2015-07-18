@@ -9,7 +9,7 @@ void setup()
 
 void loop()
 {
-  for (int i = 0; i < 20; i ++)
+  for (int i = 0; i < 20; i ++) //looks like a function, but semicolons seperate
   {
    digitalWrite(ledPin, HIGH);
    delay(delayPeriod);
